@@ -23,3 +23,14 @@ nrm use name 切换源
 
 ### http-server
 创建本地服务
+```
+npm install http-server -g
+http-server -p 300 更改端口号
+```
+
+### 本地安装
+- 安装之前需要初始化
+
+```
+npm init 
+```
