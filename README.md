@@ -34,3 +34,34 @@ http-server -p 300 更改端口号
 ```
 npm init 
 ```
+> package.json中的script可以配置一些快捷方式
+
+### 项目依赖
+- 开发时使用，上线也需要
+```
+npm install name
+```
+
+### 开发依赖
+- 开发时使用，上线不需要
+```
+npm install --save-dev name
+```
+
+### yarn
+```
+npm install -g yarn
+```
+```
+yarn init
+yarn add name
+yarn add name ---dev
+yarn remove name
+yarn install
+```
+
+### npm发布包
+```
+npm addUser 登录账号
+npm publish 发布
+```
