@@ -63,5 +63,6 @@ yarn install
 ### npm发布包
 ```
 npm addUser 登录账号
+
 npm publish 发布
 ```
